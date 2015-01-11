@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-dot",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Adds support for the dot templating engine to DocPad.",
   "homepage": "http://github.com/aaronmaturen/docpad-plugin-dot",
   "keywords": [
