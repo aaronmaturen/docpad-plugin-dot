@@ -1,0 +1,55 @@
+{
+  "name": "docpad-plugin-dot",
+  "version": "2.0.2",
+  "description": "Adds support for the dot templating engine to DocPad.",
+  "homepage": "http://github.com/aaronmaturen/docpad-plugin-dot",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "dot",
+    "dot.js",
+    "templating",
+    "templates",
+    "render",
+    "rendering"
+  ],
+  "author": {
+    "name": "Aaron T. Maturen",
+    "email": "aaron.maturen@gmail.com",
+    "url": "http://aaronmaturen.com"
+  },
+  "maintainers": [
+    {
+      "name": "aaronmaturen",
+      "email": "aaron.maturen@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aaron Maturen",
+      "email": "aaron.maturen@gmail.com",
+      "url": "https://github.com/aaronmaturen"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/aaronmaturen/docpad-plugin-dot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aaronmaturen/docpad-plugin-dot.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "dot": "^1.0.3"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0"
+  },
+  "main": "./src/dot.plugin.coffee",
+  "scripts": {
+    "test": "node ./out/dot.test.js"
+  }
+}
